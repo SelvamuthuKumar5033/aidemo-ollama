@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: aidemo
+  ai:
+    ollama:
+      chat:
+        option:
+          model: phi3.5
+      base-url: http://localhost:11434/
+
+server:
+  port: 8080
+  servlet:
+    context-path: /aidemo
